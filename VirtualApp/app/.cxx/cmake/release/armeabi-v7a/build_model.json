@@ -1,0 +1,68 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp",
+      "sdkFolder": "/Users/robinlee/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app",
+      "makeFile": "/Users/robinlee/WorkSpace/android_workspace/whale/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/.cxx",
+      "cxxFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx",
+      "ndkFolder": "/Users/robinlee/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "X86"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a",
+  "jsonFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/release/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cxx/release/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json"
+}

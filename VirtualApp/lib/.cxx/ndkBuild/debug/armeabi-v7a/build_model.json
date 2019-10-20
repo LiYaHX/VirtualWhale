@@ -1,0 +1,58 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp",
+      "sdkFolder": "/Users/robinlee/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates",
+      "gradleModulePathName": ":lib",
+      "moduleRootFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib",
+      "makeFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/.cxx",
+      "cxxFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx",
+      "ndkFolder": "/Users/robinlee/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/debug/lib",
+    "objFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/debug/obj/local",
+    "jsonFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug",
+    "gradleBuildOutputFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "X86"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a",
+  "jsonFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/.cxx/ndkBuild/debug/armeabi-v7a/compile_commands.json"
+}

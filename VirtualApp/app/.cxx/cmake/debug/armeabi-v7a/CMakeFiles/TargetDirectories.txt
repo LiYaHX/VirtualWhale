@@ -1,0 +1,8 @@
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/CMakeFiles/edit_cache.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/CMakeFiles/rebuild_cache.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/CMakeFiles/whale.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/src/assembler/vixl/CMakeFiles/edit_cache.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/src/assembler/vixl/CMakeFiles/rebuild_cache.dir
+/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/src/assembler/vixl/CMakeFiles/vixl.dir

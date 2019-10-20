@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/Users/robinlee/WorkSpace/android_workspace/whale/CMakeLists.txt",
+    "/Users/robinlee/WorkSpace/android_workspace/whale/whale/CMakeLists.txt",
+    "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "whale-Release-x86": {
+      "artifactName": "whale",
+      "buildCommand": "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/x86 --target whale",
+      "abi": "x86",
+      "output": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/release/obj/x86/libwhale.so"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Android.mk",
+    "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/robinlee/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/robinlee/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fb-release-x86": {
+      "artifactName": "fb",
+      "buildCommand": "/Users/robinlee/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/lib /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj/local/x86/libfb.a",
+      "abi": "x86",
+      "output": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj/local/x86/libfb.a"
+    },
+    "va++-release-x86": {
+      "artifactName": "va++",
+      "buildCommand": "/Users/robinlee/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/lib /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj/local/x86/libva++.so",
+      "abi": "x86",
+      "output": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/lib/build/intermediates/ndkBuild/release/obj/local/x86/libva++.so"
+    }
+  }
+}

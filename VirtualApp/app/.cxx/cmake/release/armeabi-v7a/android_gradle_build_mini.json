@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/robinlee/WorkSpace/android_workspace/whale/CMakeLists.txt",
+    "/Users/robinlee/WorkSpace/android_workspace/whale/whale/CMakeLists.txt",
+    "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "whale-Release-armeabi-v7a": {
+      "artifactName": "whale",
+      "buildCommand": "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a --target whale",
+      "abi": "armeabi-v7a",
+      "output": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/release/obj/armeabi-v7a/libwhale.so"
+    },
+    "vixl-Release-armeabi-v7a": {
+      "artifactName": "vixl",
+      "buildCommand": "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a --target vixl",
+      "abi": "armeabi-v7a",
+      "output": "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/release/armeabi-v7a/whale/src/assembler/vixl/libvixl.a"
+    }
+  }
+}

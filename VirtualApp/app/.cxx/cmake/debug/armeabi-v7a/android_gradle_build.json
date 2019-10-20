@@ -1,0 +1,290 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/robinlee/WorkSpace/android_workspace/whale/CMakeLists.txt",
+		"/Users/robinlee/WorkSpace/android_workspace/whale/whale/CMakeLists.txt",
+		"/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"vixl-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "vixl",
+			"buildCommand" : "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a --target vixl",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/code-buffer-vixl.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/compiler-intrinsics-vixl.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/cpu-features.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/utils-vixl.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/aarch32/assembler-aarch32.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/aarch32/constants-aarch32.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/aarch32/instructions-aarch32.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/aarch32/location-aarch32.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/aarch32/macro-assembler-aarch32.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DVIXL_CODE_BUFFER_MALLOC -DVIXL_INCLUDE_TARGET_A32 -DVIXL_INCLUDE_TARGET_T32 -DWHALE_ANDROID_AUTO_LOAD -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl/aarch32/operands-aarch32.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a/whale/src/assembler/vixl/libvixl.a",
+			"toolchain" : "9639243761966339379"
+		},
+		"whale-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "whale",
+			"buildCommand" : "/Users/robinlee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a --target whale",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/whale.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/interceptor.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/hook_common.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/memory.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/assembler.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/memory_region.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/instruction_set.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/closures.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/debug.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/dlmalloc.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/java_raw_api.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/prep_cif.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/raw_api.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/types.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/ffi_cxx.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/arm/decoder_arm.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/arm/decoder_thumb.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/arm/inline_hook_arm.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/arm/instruction_rewriter_arm.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/arm/ffi_armv7.c",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/native_on_load.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/art_runtime.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/art_symbol_resolver.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/java_types.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/well_known_classes.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/art_method.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/scoped_thread_state_change.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/android/art/art_jni_trampoline.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/linux/elf_image.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DWHALE_ANDROID_AUTO_LOAD -DWHALE_LIBRARY_NAME=\\\"libwhale.so\\\" -Dwhale_EXPORTS -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/libffi/platform_include -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/assembler/vixl -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/src -I/Users/robinlee/WorkSpace/android_workspace/whale/whale/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14  -c ",
+					"src" : "/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/linux/process_map.cc",
+					"workingDirectory" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libwhale.so",
+			"toolchain" : "9639243761966339379"
+		}
+	},
+	"toolchains" : 
+	{
+		"9639243761966339379" : 
+		{
+			"cCompilerExecutable" : "/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/robinlee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

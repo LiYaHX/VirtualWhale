@@ -1,0 +1,62 @@
+[1/42] Building CXX object whale/CMakeFiles/whale.dir/src/whale.cc.o
+[2/42] Building CXX object whale/CMakeFiles/whale.dir/src/interceptor.cc.o
+[3/42] Building CXX object whale/CMakeFiles/whale.dir/src/dbi/hook_common.cc.o
+[4/42] Building CXX object whale/CMakeFiles/whale.dir/src/platform/memory.cc.o
+[5/42] Building CXX object whale/CMakeFiles/whale.dir/src/assembler/assembler.cc.o
+[6/42] Building CXX object whale/CMakeFiles/whale.dir/src/assembler/memory_region.cc.o
+[7/42] Building CXX object whale/CMakeFiles/whale.dir/src/dbi/instruction_set.cc.o
+[8/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/closures.c.o
+[9/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/debug.c.o
+[10/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/dlmalloc.c.o
+[11/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/java_raw_api.c.o
+[12/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/prep_cif.c.o
+[13/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/raw_api.c.o
+[14/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/types.c.o
+[15/42] Building CXX object whale/CMakeFiles/whale.dir/src/libffi/ffi_cxx.cc.o
+[16/42] Building CXX object whale/CMakeFiles/whale.dir/src/assembler/x86/assembler_x86.cc.o
+[17/42] Building CXX object whale/CMakeFiles/whale.dir/src/assembler/x86/managed_register_x86.cc.o
+[18/42] Building CXX object whale/CMakeFiles/whale.dir/src/dbi/x86/inline_hook_x86.cc.o
+[19/42] Building CXX object whale/CMakeFiles/whale.dir/src/dbi/x86/intercept_syscall_x86.cc.o
+[20/42] Building CXX object whale/CMakeFiles/whale.dir/src/dbi/x86/instruction_rewriter_x86.cc.o
+[21/42] Building C object whale/CMakeFiles/whale.dir/src/libffi/x86/ffi_i386.c.o
+[22/42] Building ASM object whale/CMakeFiles/whale.dir/src/libffi/x86/sysv_i386.S.o
+/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/dbi/x86/intercept_syscall_x86.cc:13:32: warning: unsequenced modification and access to 'start' [-Wunsequenced]
+        if (*start == 0xcd & *(++start) == 0x80) {
+             ~~~~~             ^
+1 warning generated.
+[23/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/decoder.c.o
+clang: warning: argument unused during compilation: '-arch x86' [-Wunused-command-line-argument]
+[24/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/distorm.c.o
+[25/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/instructions.c.o
+[26/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/insts.c.o
+[27/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/mnemonics.c.o
+[28/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/operands.c.o
+[29/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/prefix.c.o
+[30/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/textdefs.c.o
+[31/42] Building C object whale/CMakeFiles/whale.dir/src/dbi/x86/distorm/wstring.c.o
+[32/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/native_on_load.cc.o
+[33/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/art_runtime.cc.o
+[34/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/art_symbol_resolver.cc.o
+[35/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/java_types.cc.o
+[36/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/well_known_classes.cc.o
+[37/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/art_method.cc.o
+[38/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/scoped_thread_state_change.cc.o
+[39/42] Building CXX object whale/CMakeFiles/whale.dir/src/android/art/art_jni_trampoline.cc.o
+[40/42] Building CXX object whale/CMakeFiles/whale.dir/src/platform/linux/elf_image.cc.o
+[41/42] Building CXX object whale/CMakeFiles/whale.dir/src/platform/linux/process_map.cc.o
+/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/linux/process_map.cc:59:53: warning: format specifies type 'unsigned long *' but the argument has type 'uintptr_t *' (aka 'unsigned int *') [-Wformat]
+            sscanf(buf, "%lx-%lx %s %lx %s %ld %s", &begin, &end, perm,
+                         ~~~                        ^~~~~~
+                         %x
+/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/linux/process_map.cc:59:61: warning: format specifies type 'unsigned long *' but the argument has type 'uintptr_t *' (aka 'unsigned int *') [-Wformat]
+            sscanf(buf, "%lx-%lx %s %lx %s %ld %s", &begin, &end, perm,
+                             ~~~                            ^~~~
+                             %x
+/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/linux/process_map.cc:60:20: warning: format specifies type 'unsigned long *' but the argument has type 'uintptr_t *' (aka 'unsigned int *') [-Wformat]
+                   &foo, dev, &inode, mapname);
+                   ^~~~
+/Users/robinlee/WorkSpace/android_workspace/whale/whale/src/platform/linux/process_map.cc:60:31: warning: format specifies type 'long *' but the argument has type 'uintptr_t *' (aka 'unsigned int *') [-Wformat]
+                   &foo, dev, &inode, mapname);
+                              ^~~~~~
+4 warnings generated.
+[42/42] Linking CXX shared library /Users/robinlee/WorkSpace/android_workspace/VirtualApp/VirtualApp/app/build/intermediates/cmake/debug/obj/x86/libwhale.so
